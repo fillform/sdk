@@ -1,0 +1,25 @@
+{
+    "name": "fillfrom/fillform-sdk",
+    "description": "Super-simple, minimum abstraction Fillform",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fillform\\Sdk\\": "src"
+        }
+    },
+    "homepage": "https:/fillform.eu",
+    "authors": [ 
+        {
+            "name": "Fabs & Simon",
+            "email": "info@fillform.eu",
+            "homepage": "http://fillform.eu/"
+
+        }
+    ]
+
+}
